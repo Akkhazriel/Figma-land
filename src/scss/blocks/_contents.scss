@@ -1,0 +1,111 @@
+.contents {
+    padding-bottom: 150px;
+    // .contents__container
+
+    &__container {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 45px;
+        text-align: center;
+        align-items: center;
+    }
+
+    // .contents__head
+
+    &__head {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        max-width: 571px;
+    }
+
+    // .contents__title
+
+    &__title {
+        color: var(--light-text);
+
+        /* Second Headline */
+        font-family: graphic_r;
+        font-size: 52px;
+        line-height: 1.19; /* 119.231% */
+        letter-spacing: 0.2px;
+    }
+
+    // .contents__desc
+
+    &__desc {
+        color: var(--light-text);
+
+        /* Sub Heading */
+        font-family: graphic_r;
+        font-size: 20px;
+        line-height: 1.5; /* 150% */
+        letter-spacing: 0.2px;
+    }
+
+    // .contents__cards
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        column-gap: 33px;
+    }
+
+    // .contents__card
+
+    &__card {
+        background-color: var(--light-text);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 93px;
+        padding-right: 93px;
+        border-radius: 10px;
+    }
+}
+.card {
+
+    // .card__title
+
+    &__title {
+        color: var(--dark-text);
+
+        /* Title */
+        font-family: graphic_m;
+        font-size: 20px;
+        line-height: 1.5; /* 150% */
+        letter-spacing: 0.1px;
+        margin-bottom: 20px;
+    }
+
+    // .card__info
+
+    &__info {
+        color: var(--second-text, #5C5C5C);
+
+        /* Paragraphe */
+        font-family: graphic_r;
+        font-size: 16px;
+        line-height: 1.5; /* 150% */
+        letter-spacing: 0.2px;
+    }
+
+    &__btn {
+        padding: 14px 46px !important;
+        &-board {
+            margin: 30px 0;
+        }
+        &-mac {
+            margin: 67px 0;
+        }
+
+        &:hover {
+            color: #000;
+            border: 1px solid #000;
+        }
+    }
+}

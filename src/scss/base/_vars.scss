@@ -1,0 +1,28 @@
+:root {
+    --dark-background: #181818;
+    --primary: #4452FE;
+    --secondary: #02E4C0;
+    --secondary-2: #112D57;
+    --dark-text: #000;
+    --light-text: #FFF;
+    --second-text: #5C5C5C;
+    --light-background: #FFFFFF;
+}
+
+@font-face {
+    font-family: roboto_r;
+    src: url('./../../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: graphic_r;
+    src: url('./../../fonts/Graphik-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: graphic_m;
+    src: url('./../../fonts/Graphik-Medium.ttf');
+    font-weight: 500;
+}

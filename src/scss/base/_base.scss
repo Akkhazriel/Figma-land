@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    font-family: graphic_r;
+}
+
+[class*="__container"] {
+    max-width: 1100px;
+    margin: 0 auto;
+}
