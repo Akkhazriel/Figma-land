@@ -58,6 +58,10 @@
     &__socials-row {
         display: flex;
         column-gap: 82px;
+        @media(max-width: 950px) {
+            overflow-x: scroll;
+
+        }
     }
 }
 
